@@ -1,0 +1,88 @@
+.plans-container{
+  margin-top: -4rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+}
+
+.plans{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.plans-blur1{
+  width: 32rem;
+  height: 23rem;
+  top: 6rem;
+  left: 0rem;
+}
+
+.plans-blur2{
+  width: 32rem;
+  height: 23rem;
+  top: 10rem;
+  left: 0rem;
+}
+
+.plan{
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  color: beige;
+  gap: 2rem;
+  padding: 1.5rem;
+  width: 19rem;
+}
+
+.plan:nth-child(2){
+  background-color: rgba(255, 217, 0, 0.239);
+  transform: scale(1.1);
+}
+
+.plan>:nth-child(2){
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.plan:hover{
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 300ms;
+}
+
+
+
+/* Adding these styles to the existing CSS */
+
+.tick-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.more-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tick-text img,
+.more-text img {
+  vertical-align: middle;
+}
+
+
+
+/* Responsive features */
+@media  screen and (max-width: 768px) {
+  .plans{
+    flex-direction: column;
+  }
+  .plans>:nth-child(2){
+    transform: none;
+  }
+}
