@@ -133,42 +133,40 @@
   .hero {
     flex-direction: column;
   }
-  .hero-blur{
+  .hero-blur {
     width: 14rem;
   }
-  .the-best-ad{
+  .the-best-ad {
     margin-top: 0;
     font-size: small;
     align-self: center;
     transform: scale(0.8);
   }
-  .hero-text{
+  .hero-text {
     font-size: xx-large;
     align-items: center;
     justify-content: center;
   }
-  .hero-text>div:nth-of-type(3){
+  .hero-text > div:nth-of-type(3) {
     font-size: small;
     font-weight: 200;
     letter-spacing: 1px;
     text-align: center;
   }
-  .hero-buttons{
+  .hero-buttons {
     justify-content: center;
   }
-  .figures>div>span:nth-of-type(1){
+  .figures > div > span:nth-of-type(1) {
     font-size: large;
   }
-  .figures>div>span:nth-of-type(2){
+  .figures > div > span:nth-of-type(2) {
     font-size: small;
   }
-  .right-h{
+  .right-h {
     position: relative;
     background: none;
   }
-  .heart-rate{
-    left: 1rem;
-    top: 2rem;
+  .heart-rate {
+    display: none;
   }
-  
 }
